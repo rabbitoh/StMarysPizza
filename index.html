@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="jquery.mobile-1.1.1.min.css" />
+        <link rel="stylesheet" href="css/my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="js/jquery.js">
+        </script>
+        <script src="js/jquery.mobile-1.1.1.min.js">
+        </script>
+        <script src="js/my.js">
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h5>
+                    St Marys Pizza
+                </h5>
+            </div>
+            <div data-role="content">
+                <div style=" text-align:center">
+                    <img style="width: 100%; height: 100px" src="images/logo.jpg" />
+                </div>
+                <ul data-role="listview" data-divider-theme="a" data-inset="true" data-split-theme="a">
+                    <li data-role="list-divider" role="heading">
+					
+                        Store Details
+                    </li>
+                    <li data-theme="d">
+					
+                        <a href="location.html" data-transition="none">
+						<img src="images/pin.png" class="ui-li-icon">
+                            Store Location
+                        </a>
+                    </li>
+                    <li data-theme="d">
+                        <a href="hours.html" data-transition="none">
+						<img src="images/store.png" class="ui-li-icon">
+                            Opening Hours
+                        </a>
+                    </li>
+                    <li data-theme="d">
+                        <a href="delivery.html" data-transition="none">
+						<img src="images/delivery.png" class="ui-li-icon">
+                            Delivery Details
+                        </a>
+                    </li>
+                </ul>
+                <a data-role="button" data-theme="b" href="tel:0298333111" data-icon="forward" data-iconpos="right">
+                    Click To Call
+                </a>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="menu.html" data-theme="" data-icon="star">
+                                Menu
+                            </a>
+                        </li>
+                        <li>
+                            <a href="deals.html" data-theme="" data-icon="check">
+                                Deals
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.menulog.com.au/order/st_marys_pizza_kebab_pide" data-theme="" data-icon="home">
+                                Order Online
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+		
+		
+		<script>
+            //App custom javascript
+        </script>
+    </body>
+</html>

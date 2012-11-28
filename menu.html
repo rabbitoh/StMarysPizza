@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="jquery.mobile-1.1.1.min.css" />
+        <link rel="stylesheet" href="css/my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="js/jquery.js">
+        </script>
+        <script src="js/jquery.mobile-1.1.1.min.js">
+        </script>
+        <script src="js/my.js">
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+			<a data-role="button" class="ui-btn-left" data-theme="a" href="index.html" data-icon="arrow-l" data-iconpos="left">
+                    Back
+                </a>
+                <h5>
+                    St Marys Pizza
+                </h5>
+            </div>
+            <div data-role="content">
+			<center>For more information about extras, please click the info button next to the desired menu item</center>
+                <ul data-role="listview" data-divider-theme="a" data-inset="true" data-split-theme="b">
+                    <li data-theme="d">
+					
+                        <a href="pizza.html" data-transition="none">
+                            Pizza Menu
+                        </a>
+						<a href="pizzaextras.html"  data-rel="dialog" data-transition="slideup" data-theme="b" data-icon="info">Extras</a>
+                    </li>
+                    <li data-theme="d">
+                        <a href="hours.html" data-transition="none">
+                            Pide Menu
+                        </a>
+                    </li>
+                    <li data-theme="d">
+                        <a href="delivery.html" data-transition="none">
+                            Kebab Menu
+                        </a>
+                    </li>
+
+					 <li data-theme="d">
+                        <a href="delivery.html" data-transition="none">
+                            Burgers
+                        </a>
+                    </li>
+					
+					 <li data-theme="d">
+                        <a href="delivery.html" data-transition="none">
+                            Fish & Chips
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="menu.html" class="ui-btn-active" data-theme="" data-icon="star">
+                                Menu
+                            </a>
+                        </li>
+                        <li>
+                            <a href="deals.html" data-theme="" data-icon="check">
+                                Deals
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.menulog.com.au/order/st_marys_pizza_kebab_pide" data-theme="" data-icon="home">
+                                Order Online
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+		
+		
+		<script>
+            //App custom javascript
+        </script>
+    </body>
+</html>
